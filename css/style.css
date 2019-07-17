@@ -198,15 +198,15 @@ p {
 	padding-top: 25px;
 	letter-spacing: 1px;
 	height: 80px;
-	-webkit-transition: all 0.6s;
+	/*-webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
 	-o-transition: all 0.6s;
-	transition: all 0.6s;
+	transition: all 0.6s;*/
 	-webkit-backface-visibility: hidden;
 }
 
 .navbar-default {
-  transition: all 0.6s ease;
+  /*transition: all 0.6s ease;*/
 	border-color: transparent;
   background-color: transparent;
 }
@@ -225,26 +225,31 @@ p {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #111111;
+  background-color: white;
 }
 
 .navbar-default .navbar-brand .navbar-toggle .collapsed {
     padding: 4px 6px;
     font-size: 14px;
-    color: #111111;
+    color: white;
   }
 
 .navbar-default .navbar-brand {
 	padding-top: 5px;
-	color: #111111;
+	color: white;
 	-webkit-transition: 200ms;
 	-moz-transition: 200ms;
 	-o-transition: 200ms;
 	transition: 200ms;
 }
 
+.navbar-brand{
+	margin: 4px 0 0 0;
+}
+
 .navbar-default .navbar-brand:hover {
   transition: 1s;
+  
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -347,7 +352,7 @@ p {
 	}
 
   .navbar-default .navbar-toggle .icon-bar {
-    background-color: #111111;
+    background-color: white;
   }
 }
 
@@ -370,7 +375,7 @@ p {
 }
 
 .navbar-default.past-main .navbar-toggle .icon-bar {
-	background-color: #111111;
+	background-color: white;
 }
 
 .navbar-default.past-main .navbar-nav > li > a {
@@ -406,7 +411,7 @@ p {
 }
 
 .navbar-default.past-main .nav-white .navbar-toggle .icon-bar {
-	background-color: #111111;
+	background-color: white;
 }
 
 /* ------------------------------------------------------
@@ -1105,18 +1110,18 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .pitch {
-	padding: 100px 0 100px 0;
+	padding: 100px 0 80px 0;
 	background: #2e2e30;
 }
 
 .pitch-intro {
 	max-width: 650px;
 	margin: 0 auto;
-	padding: 0 0 100px 0;
+	padding: 0 0 72px 0;
 }
 
 .pitch-intro h1 {
-	font-size: 37px;
+	font-size: 42px;
 	font-weight: 900;
 	line-height: 1.2;
 	color: #FFF;
@@ -1446,7 +1451,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .split-features {
 	background: #F9F9F9;
-	padding: 50px 0 50px 0;
+	padding: 50px auto;
 	overflow: hidden;
 }
 
@@ -1900,7 +1905,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
   height: 100%;
 	overflow: hidden;
 	padding-top: 75px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 .contact {
@@ -2076,7 +2081,7 @@ font-size: 12px;
 	}
 
 	.form .hero-content h1 {
-		font-size: 54px;
+		font-size: 72px;
 	}
 
 	.product .hero-content {
@@ -2151,7 +2156,7 @@ font-size: 12px;
 	}
 
 	.split-content {
-		padding: 70px 200px 50px 10px;
+		padding: 54px 84px 50px 10px;
 		text-align: left;
 	}
 	
@@ -2200,7 +2205,7 @@ padding: 70px 10px 50px 350px;
 	}
 
 	.split-content {
-		padding: 100px 100px 50px 50px;
+		padding: 54x 100px 50px 10px;
 		text-align: left;
 	}
 
@@ -2287,3 +2292,14 @@ padding: 70px 10px 50px 350px;
 /*---------------------------------------------------
 ------- Media Queries for Split Layout Ends ---------
 ---------------------------------------------------*/
+
+
+/*---------- cover ---------*/
+.navbar-toggle .icon-bar{
+	width: 42px;
+	height: 4px;
+	margin: 8px 0 8px 0;
+}
+.navbar-toggle{
+	margin: 2px 10px 0 0 ;
+}
