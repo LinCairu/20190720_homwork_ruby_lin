@@ -54,6 +54,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: #222225;
 }
 ol, ul {
 	list-style: none;
@@ -566,7 +567,7 @@ font-family: Arial;
 
 
 .form .hero-content h1 {
-	font-size: 34px;
+	font-size: 62px;
 	font-weight: 900;
 	color: #fff;
 	line-height: 1.2;
@@ -1105,6 +1106,33 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 /*----------------------------------------------------
+----------- Pitch Section change ----------
+-----------------------------------------------------*/
+
+.pitch-intro.change {
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 0 42px 0;
+}
+
+.pitch-intro h1.change {
+	font-size: 52px;
+	font-weight: 900;
+	line-height: 1.2;
+	color: #FFF;
+	margin: 60px 0 20px 0;
+}
+
+
+.pitch-intro p.change {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #A1A1A1;
+	letter-spacing: 0;
+}
+
+/*----------------------------------------------------
 ----------- Pitch Section Styling Starts ----------
 -----------------------------------------------------*/
 
@@ -1115,17 +1143,17 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .pitch-intro {
-	max-width: 650px;
+	max-width: 720px;
 	margin: 0 auto;
 	padding: 0 0 72px 0;
 }
 
 .pitch-intro h1 {
-	font-size: 42px;
+	font-size: 52px;
 	font-weight: 900;
 	line-height: 1.2;
 	color: #FFF;
-	margin: 0 0 30px 0;
+	margin: 5px 0 10px 0;
 }
 
 
@@ -1136,6 +1164,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	color: #A1A1A1;
 	letter-spacing: 0;
 }
+
 
 .pitch-icon {
 	margin: 0 0 10px 0;
@@ -1460,7 +1489,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .split-image img {
-	margin: 25px 0 0 0;
+	margin: 35px 0 0 0;
 }
 
 .split-content {
@@ -2081,7 +2110,7 @@ font-size: 12px;
 	}
 
 	.form .hero-content h1 {
-		font-size: 72px;
+		font-size: 85px;
 	}
 
 	.product .hero-content {
@@ -2156,7 +2185,7 @@ font-size: 12px;
 	}
 
 	.split-content {
-		padding: 54px 84px 50px 10px;
+		padding: 52px 84px 50px 10px;
 		text-align: left;
 	}
 	
@@ -2302,4 +2331,52 @@ padding: 70px 10px 50px 350px;
 }
 .navbar-toggle{
 	margin: 2px 10px 0 0 ;
+}
+
+
+/*---------------------------------------------------
+------- form ---------
+---------------------------------------------------*/
+
+#singlebutton{
+	height: 45px;
+	width: 100%;
+	padding: 0 20px;
+	color: #FFFFFF;
+	background-color: #00aeda;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+}
+
+#singlebutton:hover{
+	color: #00aeda;
+	background: #222225;
+	border-color: #222225;
+}
+
+#gender{
+	color: #888888;
+}
+
+.form-control{
+height: 45px;
+padding: 0 20px;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+}
+
+.control-label{
+	color: #FFFFFF;
+}
+
+#account,#email{
+	border-radius:4px
+}
+.err{
+	color: #F8D720;
+	float: left;
+	margin: 10px 0 0 0;
+	font-size: 14px;
+	display: none;
 }
